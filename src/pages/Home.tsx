@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import type { Movie } from '../types/movie';
 import { getPopularMovies, searchMovies } from '../services/tmdbApi';
 import MovieList from '../components/MovieList';
-import SearchBar from '../components/searchBar';
+import SearchBar from '../components/SearchBar';
 
 const Home: React.FC = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
