@@ -17,8 +17,9 @@ x
 .App {
   text-align: center;
   padding: 20px;
-  max-width: 1400px; /* or 1600px, 90%, etc. */
+  max-width: 1600px; /* or 1600px, 90%, etc. */
   margin: 0 auto;
+  background-color: #8dd8f886;
 }
 
 
@@ -59,6 +60,10 @@ x
 .movie-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.movie-info h1 {
+  color: #333;
 }
 
 .movie-info h3 {
